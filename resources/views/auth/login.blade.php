@@ -64,6 +64,50 @@
                                 @endif
                             </div>
                         </div>
+
+                        <div class="form-group row mb-0 mt-3">
+                            <div class="col-md-6 offset-md-4">
+                                <a href="{{ route('auth', 'facebook') }}" class="btn btn-primary form-control">
+                                    <i class="fa fa-facebook pr-2"></i>
+                                    <span>
+                                        Sign up with Facebook
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="form-group row mb-0 mt-3">
+                            <div class="col-md-6 offset-md-4">
+                                <a href="{{ route('auth', 'github') }}" class="btn btn-dark form-control">
+                                    <i class="fa fa-github pr-2"></i>
+                                    <span>
+                                        Sign up with Github
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row mb-0 mt-3">
+                            <div class="col-md-6 offset-md-4">
+                                <a href="{{ route('auth', 'google') }}" class="btn btn-danger form-control text-light">
+                                    <i class="fa fa-google pr-2"></i>
+                                    <span>
+                                        Sign up with Google
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row mb-0 mt-3">
+                            <div class="col-md-6 offset-md-4">
+                                <a href="{{ route('auth', 'twitter') }}" class="btn btn-info form-control text-light">
+                                    <i class="fa fa-twitter pr-2"></i>
+                                    <span>
+                                        Sign up with Twitter
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
                     </form>
                 </div>
             </div>
